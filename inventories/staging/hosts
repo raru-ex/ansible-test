@@ -3,7 +3,3 @@
 
 [dbservers]
 192.168.33.102
-
-[all:vars]
-ansible_user=vagrant
-ansible_ssh_pass=vagrant

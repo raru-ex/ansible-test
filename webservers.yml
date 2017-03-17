@@ -1,5 +1,6 @@
 ---
-- hosts: webservers
-  sudo: yes
+- name: Setting Basic WebServer
+  hosts: webservers
+  become: true
   roles:
       - common
